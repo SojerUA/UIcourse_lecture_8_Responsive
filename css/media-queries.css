@@ -1,0 +1,9 @@
+@media print {
+    .blok,.blok_direction-red,.blok_direction-black,.blok_direction-green,.blok_direction-yellow,.blok_purple,.blok_grey,.blok_lavender {
+        border: 1px solid #000000;
+    }
+}
+
+
+
+

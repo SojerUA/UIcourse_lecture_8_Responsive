@@ -1,0 +1,174 @@
+@import "null-style.css";
+@import "media-queries.css";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
+
+
+
+
+.blok {
+    height: 100vh;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blok__midlle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.blok_purple {
+    padding: 80px;
+    text-align: center;
+    width: 100%;
+    color: #fafd27;
+    background-color: #bd17f0;
+    transition: all .3s ease;
+}
+.blok_direction-green {
+    padding: 5px;
+    text-align: center;
+    width: 300px;
+    color: #291366;
+    background-color: #189b13;
+    transition: all .3s ease;
+}
+.blok_direction-black {
+    padding: 5px;
+    text-align: center;
+    width: 300px;
+    color: #ffffff;
+    background-color: #000000;
+    transition: all .3s ease;
+}
+.blok_direction-yellow {
+    padding: 5px;
+    text-align: center;
+    width: 300px;
+    color: #661313;
+    background-color: #e3f300;
+    transition: all .3s ease;
+}
+.blok_direction-red {
+    padding: 5px;
+    text-align: center;
+    width: 300px;
+    color: #1b331b;
+    background-color: #f80000;
+    transition: all .3s ease;
+}
+.blok_grey {
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    color: #1bff1b;
+    background-color: #818181;
+    transition: all .3s ease;
+}
+.blok_lavender {
+    padding: 56px;
+    text-align: center;
+    width: 100%;
+    color: #616ee0;
+    background-color: #a47be6;
+    transition: all .3s ease;
+}
+@media (min-width: 740px) and (max-width: 992px) {
+    .blok__midlle {
+        flex-direction: column;
+    }
+    .blok_direction-green,.blok_direction-black,.blok_direction-yellow,.blok_direction-red {
+        margin: 5px 0px 3px 5px;
+        width: 220px;
+        color: #ffffff;
+    }
+    .blok_direction-green{
+        background-color: #4c376e;
+    }
+    .blok_direction-black {
+        background-color: #bd1515;
+    }
+    .blok_direction-yellow {
+        background-color: #191a12;
+    }
+    .blok_direction-red {
+        background-color: #5ccff1;
+    }
+    .blok_purple {
+        background-color: #1100f8;
+    }
+    .blok_grey {
+        background-color: #790404;
+        width: 98%;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+    .blok_lavender {
+        color: #ffffff;
+        background-color: #352020;
+    }
+    .blok_direction {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .blok {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .blok__midlle {
+        flex-direction: column;
+        align-items: center;
+    }
+    .blok_direction-green,.blok_direction-black,.blok_direction-yellow,.blok_direction-red {
+        width: 100%;
+        margin: 5px 0px;
+    }
+    .blok_grey {
+        width: 100%;
+        margin: 2px 0px;
+    }
+    .blok_purple {
+        padding: 42px 10px;
+    }
+}
+@media (orientation: landscape) {
+    .blok {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .blok_direction-green,.blok_direction-black,.blok_direction-yellow,.blok_direction-red,.blok_lavender,.blok_purple {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px;
+        padding: 9px 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
